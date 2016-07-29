@@ -1,0 +1,129 @@
+.navbar
+{
+  list-style-type:none; 
+  padding:5px;
+}
+nav
+{
+  background-color:grey;
+  top:0px;
+  width:100%;
+  
+  
+}
+
+.navbar a li
+  {
+    display:inline;   
+    margin-right:15px; 
+    color:white;
+    font-variant:small-caps;
+  }
+
+.navbar a{
+  text-decoration:none; 
+  padding:5px; 
+}
+
+.active {
+  font-weight: bolder;
+}
+.heading{
+ margin-top:70px;
+}
+
+div{
+ float: right;
+}
+
+.pics
+{
+  width:50%;
+  text-align: center;
+}
+
+.taco {
+ position:relative;
+ align: right;
+ bottom: 10px;
+}
+.tao {
+  position: absolute;
+  left:5%;
+  
+  
+}
+p
+{
+  width: 50%;
+  text-align: center
+  margin:auto;
+}
+footer{
+  background-color:grey;
+  border-radius:10px;
+  padding: 5px;
+  position:static;
+  width:100%;
+  margin-top:700px;
+  bottom:0px;
+}
+
+.signup{
+  float:right;
+  margin-right:15%;
+  width:20%;
+  margin-top:10%;
+}
+
+.main{
+  /*display:inlines-block;*/
+  width:40%;
+  float:left;
+  margin-left: 20%;
+  margin-top:10%;
+}
+/*.pp{*/
+/*  display:block;*/
+/*  float: left;*/
+/*}*/
+
+.cl{
+  margin-top:100px;
+}
+
+header
+{
+  background-color: grey;
+  height:200px;
+
+}
+.sfs 
+{
+  font-size:100px;
+  margin-bottom:30px;
+  position:relative;
+  bottom:200px;
+}
+
+.btn1{
+   background-color:black;
+  border:none;
+  color:white;
+  padding:15px 32px;
+  text-align:center;
+  font-size:16px;
+  margin:0 auto;
+  cursor: pointer;
+  border-radius:20px;
+  transition-duration: 3.8s;
+  clear:both;
+  display:block;
+}
+
+.btn1:hover{
+  background-color: red
+}
+.head{
+  font-size:72;
+}
