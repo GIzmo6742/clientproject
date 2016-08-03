@@ -10,12 +10,9 @@
       </center>
       
       </header>
- 
-        
-        
-   <!--o shit waddup-->
-    
-    
+
+
+
     </head>
 <body>
  <nav> 
@@ -32,6 +29,29 @@
 <center><img src="http://calvarychapelessen.de/wp-content/themes/micro/assets/images/image_placeholder.png"></center>
 <iframe width="1349" height="315" src="https://www.youtube.com/embed/NpEaa2P7qZI" frameborder="0" allowfullscreen></iframe>
     </body>
+    
+     <div class="img">
+         <a target="_blank" href="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150">
+              <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150" alt="placeholder" width="400" height="300">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+     <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("myslides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 5000); // Change image every 5 seconds
+}
+</script>
     
   <footer><h3>Contact Informations</h3></footer>  
     
