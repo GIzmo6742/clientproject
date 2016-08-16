@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
-   
-     <body background="https://scontent.xx.fbcdn.net/v/t1.0-9/13339560_1194290927256083_390288207524482707_n.jpg?oh=e85cd5658735cd2c345a223939aadba6&oe=581ACB45"></body>
-      <link rel="stylesheet" href="styles.css" type="text/css" /> 
+    <head>
+      <link rel="stylesheet" href="styles.css" type="text/css" />
     <!--dat boi-->
       <header>
         <div class="box">
@@ -21,6 +20,7 @@
             <a href="events.html">
                 <li>Events</li>
             </a>
+        
             <a href="involved.html">
                 <li>Get Involved</li>
             </a>
@@ -30,35 +30,40 @@
     </div>
         
     </header>
+    <div class="budy">
         <div class="apple">        
 
     </body>
-    <img class="myslides" src=""></img>
+    <img class="myslides" src="images/sfs.jpg"></img>
     
-    <img class="myslides" src=""></img>
+    <img class="myslides" src="images/sfs2.jpg"></img>
     
-    <img class="myslides" src=""></img>
-    
+     <img class="myslides" src="image/nnn.jpg"></img>
+     
+      <img class="myslides" src=""></img>
+      
+       <img class="myslides" src=""></img>
      <script>
+<script>
 var myIndex = 0;
 carousel();
 
 function carousel() {
-    var i;
-    var x = document.getElementsByClassName("myslides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}
-    x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 5000); // Change image every 5 seconds
+   var i;
+   var x = document.getElementsByClassName("myslides");
+   for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+   }
+   myIndex++;
+   if (myIndex > x.length) {myIndex = 1}
+   x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 5 seconds
 }
 </script>
+
 </div>
   <footer><h3>Contact Informations if you are interested in performing, participating in the resource fair or volunteering, email joinrage@gmail.com or call us at 866-845-1032!</h3></footer>  
-    
-    
+    </div>
     
     
     

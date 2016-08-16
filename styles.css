@@ -1,6 +1,6 @@
 body {
 
-   background-image: url("https://scontent.xx.fbcdn.net/v/t1.0-9/13339560_1194290927256083_390288207524482707_n.jpg?oh=e85cd5658735cd2c345a223939aadba6&oe=581ACB45");
+   /*background-image: url("https://scontent.xx.fbcdn.net/v/t1.0-9/13339560_1194290927256083_390288207524482707_n.jpg?oh=e85cd5658735cd2c345a223939aadba6&oe=581ACB45");*/
    background-size:cover;
    background-repeat:no-repeat;
    margin:0;
@@ -81,19 +81,27 @@ p
 footer{
   background-color:black;
   color:white;
-  border-radius:10px;
-  padding: 10px;
-  position:static;
+  /*border-radius:10px;*/
+  padding: 5px;
+  /*position:static;*/
   width:100%;
-  margin-top:700px;
+  margin-top:100px;
   bottom:0px;
+  text-align:center;
+  
+}
+h3{
+  font-size:40px;
+  color:white;
 }
 
-.signup{
+a:visited {color:white;}
+
+/*.signup{
   float:right;
   margin-right:15%;
   width:20%;
-  margin-top:10
+  margin-top:10*/
 
   
 }
@@ -134,7 +142,7 @@ header{
   font-size:8em;
   display: fixed;
   margin-bottom:0px;
-  background-color:rgba(0, 0, 0, 0.91);
+  /*background-color:rgba(0, 0, 0, 0.91);*/
   margin-top: 0px;
   text-align: center;
  
@@ -160,9 +168,9 @@ header{
 }
 .head{
   font-size:72;
+  text-align: center;
 
 }
-
 body {
     background-size: cover;
     background-repeat: no-repeat;
@@ -179,11 +187,7 @@ body {
    display:inline-block;
 }
 
-.fb-like {
- position: relative;
- left: 995px;
- bottom: 695px;
-}
+
 .apple 
 {
   background-color: rgba(255, 255, 255, 0.71);
@@ -197,11 +201,16 @@ body {
 }
 
 
-#p4 {background-color:rgba(0, 0, 0, 0.91);
-margin-top:0;
-}
+/*#p4 {background-color:rgba(0, 0, 0, 0.91);*/
 
-#p5 {background-color:rgba(255, 255, 255, 0.62);}
+
+#p5 {
+  background-color:black
+}
+table
+{color:white;
+  font-size: 30px;
+}
 
 #p6 {background-color:rgba(255, 255, 255, 0.62);}
 
@@ -220,14 +229,9 @@ margin-top:0;
   }
 
 
-.neeco {
-  text-align: center;
-}
 
-.kxen {
-  position: relative;
-  top: 200px;   
-}
+
+
 /* Dates */
 .agenda .agenda-date { width: 170px; }
 .agenda .agenda-date .dayofmonth {
@@ -243,5 +247,41 @@ margin-top:0;
 }
 .plan{
   margin:6%;
+}
+.myslides
+{
+  border-color: black;
+  margin:auto;
+  width:70%;
+  background-color:black;
+  box-shadow: 3px 4px 6px rgba(0, 0, 0, .5);
+  padding:20px;
+  
+}
+.body {
+   background-image: url("https://scontent.xx.fbcdn.net/v/t1.0-9/13339560_1194290927256083_390288207524482707_n.jpg?oh=e85cd5658735cd2c345a223939aadba6&oe=581ACB45");
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin-top:-130px;
+    /*margin-bottom:-200;*/
+    background-position: center;
+    width: 100%;
+    min-height:100vh;
+}
+  
+.budy {
+     background-image: url("https://scontent.xx.fbcdn.net/v/t1.0-9/13339560_1194290927256083_390288207524482707_n.jpg?oh=e85cd5658735cd2c345a223939aadba6&oe=581ACB45");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:-135px;
+    /*margin-bottom:-200;*/
+    background-position:  ;
+    width: 100%;
+    min-height:100vh;
+    background-attachment:fixed;
+}
+
+.up{
+  text-align: center;
 }
 
